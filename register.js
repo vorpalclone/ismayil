@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             sessionStorage.setItem('registeredPasswords', JSON.stringify(registeredPasswords));
 
             alert('Kayıt başarıyla tamamlandı! Lütfen giriş yapın.'); 
-            window.location.href = "index2.html"; 
+            window.location.href = "index.html"; 
         }
     });
 });
